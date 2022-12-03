@@ -91,6 +91,8 @@
                 myGameArea.clear();
                 ctx = myGameArea.context;
                 ctx.font = "11px Arial";
+                ctx.textAlign = "left";
+                ctx.textBaseline = "bottom";
                 ctx.fillText(generatedText, 430, 10);
                 ctx.fillText(hitText, 430, 20);
                 if(components.length != 0){
